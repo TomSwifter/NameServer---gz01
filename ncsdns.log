@@ -1,0 +1,480 @@
+Received request (46 bytes). Header:
+->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18768
+    flags: rd; QUERY: 1, ANSWER: 0,    AUTHORITY: 0, ADDITIONAL: 1
+Received question:
+www.microsoft.com.            	IN	A
+SEP: RECURSIVE: 'www.microsoft.com.'
+SEP:  ITERATIVE START: 'www.microsoft.com.'  =>  'd.root-servers.net.'
+Requesting 'www.microsoft.com.' to nameserver: 'd.root-servers.net.' (199.7.91.13)
+RR.fromData: offset=0x23; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=20
+com.                          	172800	IN	NS	f.gtld-servers.net.
+RR.fromData: offset=0x43; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	b.gtld-servers.net.
+RR.fromData: offset=0x53; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	i.gtld-servers.net.
+RR.fromData: offset=0x63; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	g.gtld-servers.net.
+RR.fromData: offset=0x73; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	a.gtld-servers.net.
+RR.fromData: offset=0x83; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	k.gtld-servers.net.
+RR.fromData: offset=0x93; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	e.gtld-servers.net.
+RR.fromData: offset=0xa3; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	j.gtld-servers.net.
+RR.fromData: offset=0xb3; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	d.gtld-servers.net.
+RR.fromData: offset=0xc3; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	h.gtld-servers.net.
+RR.fromData: offset=0xd3; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	l.gtld-servers.net.
+RR.fromData: offset=0xe3; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	c.gtld-servers.net.
+RR.fromData: offset=0xf3; dn=com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+com.                          	172800	IN	NS	m.gtld-servers.net.
+RR.fromData: offset=0x103; dn=a.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a.gtld-servers.net.           	172800	IN	A	192.5.6.30
+RR.fromData: offset=0x113; dn=b.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+b.gtld-servers.net.           	172800	IN	A	192.33.14.30
+RR.fromData: offset=0x123; dn=c.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+c.gtld-servers.net.           	172800	IN	A	192.26.92.30
+RR.fromData: offset=0x133; dn=d.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+d.gtld-servers.net.           	172800	IN	A	192.31.80.30
+RR.fromData: offset=0x143; dn=e.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+e.gtld-servers.net.           	172800	IN	A	192.12.94.30
+RR.fromData: offset=0x153; dn=f.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+f.gtld-servers.net.           	172800	IN	A	192.35.51.30
+RR.fromData: offset=0x163; dn=g.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+g.gtld-servers.net.           	172800	IN	A	192.42.93.30
+RR.fromData: offset=0x173; dn=h.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+h.gtld-servers.net.           	172800	IN	A	192.54.112.30
+RR.fromData: offset=0x183; dn=i.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+i.gtld-servers.net.           	172800	IN	A	192.43.172.30
+RR.fromData: offset=0x193; dn=j.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+j.gtld-servers.net.           	172800	IN	A	192.48.79.30
+RR.fromData: offset=0x1a3; dn=k.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+k.gtld-servers.net.           	172800	IN	A	192.52.178.30
+RR.fromData: offset=0x1b3; dn=l.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+l.gtld-servers.net.           	172800	IN	A	192.41.162.30
+RR.fromData: offset=0x1c3; dn=m.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+m.gtld-servers.net.           	172800	IN	A	192.55.83.30
+RR.fromData: offset=0x1d3; dn=a.gtld-servers.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+a.gtld-servers.net.           	172800	IN	AAAA	2001:503:a83e::2:30
+Received 27 resource records (0 answers, 13 authoritative, 13 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com.'  =>  'd.root-servers.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com.'  =>  'f.gtld-servers.net.'
+Requesting 'www.microsoft.com.' to nameserver: 'f.gtld-servers.net.' (192.35.51.30)
+RR.fromData: offset=0x23; dn=microsoft.com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=14
+microsoft.com.                	172800	IN	NS	ns3.msft.net.
+RR.fromData: offset=0x3d; dn=microsoft.com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=6
+microsoft.com.                	172800	IN	NS	ns1.msft.net.
+RR.fromData: offset=0x4f; dn=microsoft.com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=6
+microsoft.com.                	172800	IN	NS	ns2.msft.net.
+RR.fromData: offset=0x61; dn=microsoft.com.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=6
+microsoft.com.                	172800	IN	NS	ns4.msft.net.
+RR.fromData: offset=0x73; dn=ns3.msft.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns3.msft.net.                 	172800	IN	A	193.221.113.53
+RR.fromData: offset=0x83; dn=ns3.msft.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+ns3.msft.net.                 	172800	IN	AAAA	2620:0:34::53
+RR.fromData: offset=0x9f; dn=ns1.msft.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns1.msft.net.                 	172800	IN	A	208.84.0.53
+RR.fromData: offset=0xaf; dn=ns1.msft.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+ns1.msft.net.                 	172800	IN	AAAA	2620:0:30::53
+RR.fromData: offset=0xcb; dn=ns2.msft.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns2.msft.net.                 	172800	IN	A	208.84.2.53
+RR.fromData: offset=0xdb; dn=ns2.msft.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+ns2.msft.net.                 	172800	IN	AAAA	2620:0:32::53
+RR.fromData: offset=0xf7; dn=ns4.msft.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns4.msft.net.                 	172800	IN	A	208.76.45.53
+RR.fromData: offset=0x107; dn=ns4.msft.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+ns4.msft.net.                 	172800	IN	AAAA	2620:0:37::53
+Received 12 resource records (0 answers, 4 authoritative, 4 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com.'  =>  'f.gtld-servers.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com.'  =>  'ns3.msft.net.'
+Requesting 'www.microsoft.com.' to nameserver: 'ns3.msft.net.' (193.221.113.53)
+RR.fromData: offset=0x23; dn=www.microsoft.com.; len(dn)=2,               type=5, cls=1, ttl=3600, rdlength=35
+www.microsoft.com.            	3600	IN	CNAME	www.microsoft.com-c-2.edgekey.net.
+Received 1 resource records (1 answers, 0 authoritative, 0 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com.'  =>  'ns3.msft.net.'
+DUDE THIS DOMAIN (www.microsoft.com.) IS IN CNAMECACHE BUT NOT IN ACACHE
+[(www.microsoft.com., 3600, IN, CNAME, www.microsoft.com-c-2.edgekey.net.)]
+[]
+SEP: RECURSIVE: 'www.microsoft.com-c-2.edgekey.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com-c-2.edgekey.net.'  =>  'd.root-servers.net.'
+Requesting 'www.microsoft.com-c-2.edgekey.net.' to nameserver: 'd.root-servers.net.' (199.7.91.13)
+RR.fromData: offset=0x33; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=17
+net.                          	172800	IN	NS	j.gtld-servers.net.
+RR.fromData: offset=0x50; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	h.gtld-servers.net.
+RR.fromData: offset=0x60; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	m.gtld-servers.net.
+RR.fromData: offset=0x70; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	g.gtld-servers.net.
+RR.fromData: offset=0x80; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	i.gtld-servers.net.
+RR.fromData: offset=0x90; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	e.gtld-servers.net.
+RR.fromData: offset=0xa0; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	l.gtld-servers.net.
+RR.fromData: offset=0xb0; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	c.gtld-servers.net.
+RR.fromData: offset=0xc0; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	k.gtld-servers.net.
+RR.fromData: offset=0xd0; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	d.gtld-servers.net.
+RR.fromData: offset=0xe0; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	a.gtld-servers.net.
+RR.fromData: offset=0xf0; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	b.gtld-servers.net.
+RR.fromData: offset=0x100; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	f.gtld-servers.net.
+RR.fromData: offset=0x110; dn=a.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a.gtld-servers.net.           	172800	IN	A	192.5.6.30
+RR.fromData: offset=0x120; dn=b.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+b.gtld-servers.net.           	172800	IN	A	192.33.14.30
+RR.fromData: offset=0x130; dn=c.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+c.gtld-servers.net.           	172800	IN	A	192.26.92.30
+RR.fromData: offset=0x140; dn=d.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+d.gtld-servers.net.           	172800	IN	A	192.31.80.30
+RR.fromData: offset=0x150; dn=e.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+e.gtld-servers.net.           	172800	IN	A	192.12.94.30
+RR.fromData: offset=0x160; dn=f.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+f.gtld-servers.net.           	172800	IN	A	192.35.51.30
+RR.fromData: offset=0x170; dn=g.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+g.gtld-servers.net.           	172800	IN	A	192.42.93.30
+RR.fromData: offset=0x180; dn=h.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+h.gtld-servers.net.           	172800	IN	A	192.54.112.30
+RR.fromData: offset=0x190; dn=i.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+i.gtld-servers.net.           	172800	IN	A	192.43.172.30
+RR.fromData: offset=0x1a0; dn=j.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+j.gtld-servers.net.           	172800	IN	A	192.48.79.30
+RR.fromData: offset=0x1b0; dn=k.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+k.gtld-servers.net.           	172800	IN	A	192.52.178.30
+RR.fromData: offset=0x1c0; dn=l.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+l.gtld-servers.net.           	172800	IN	A	192.41.162.30
+RR.fromData: offset=0x1d0; dn=m.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+m.gtld-servers.net.           	172800	IN	A	192.55.83.30
+RR.fromData: offset=0x1e0; dn=a.gtld-servers.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+a.gtld-servers.net.           	172800	IN	AAAA	2001:503:a83e::2:30
+Received 27 resource records (0 answers, 13 authoritative, 13 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com-c-2.edgekey.net.'  =>  'd.root-servers.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com-c-2.edgekey.net.'  =>  'j.gtld-servers.net.'
+Requesting 'www.microsoft.com-c-2.edgekey.net.' to nameserver: 'j.gtld-servers.net.' (192.48.79.30)
+RR.fromData: offset=0x33; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=14
+edgekey.net.                  	172800	IN	NS	ns1-66.akam.net.
+RR.fromData: offset=0x4d; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=7
+edgekey.net.                  	172800	IN	NS	usw6.akam.net.
+RR.fromData: offset=0x60; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=8
+edgekey.net.                  	172800	IN	NS	adns1.akam.net.
+RR.fromData: offset=0x74; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	ns4-66.akam.net.
+RR.fromData: offset=0x89; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	ns7-65.akam.net.
+RR.fromData: offset=0x9e; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	ns5-66.akam.net.
+RR.fromData: offset=0xb3; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=8
+edgekey.net.                  	172800	IN	NS	a6-65.akam.net.
+RR.fromData: offset=0xc7; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	a12-65.akam.net.
+RR.fromData: offset=0xdc; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=8
+edgekey.net.                  	172800	IN	NS	a5-65.akam.net.
+RR.fromData: offset=0xf0; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	a16-65.akam.net.
+RR.fromData: offset=0x105; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	a18-65.akam.net.
+RR.fromData: offset=0x11a; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	a28-65.akam.net.
+RR.fromData: offset=0x12f; dn=edgekey.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+edgekey.net.                  	172800	IN	NS	a13-65.akam.net.
+RR.fromData: offset=0x144; dn=ns1-66.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns1-66.akam.net.              	172800	IN	A	193.108.91.66
+RR.fromData: offset=0x154; dn=ns1-66.akam.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+ns1-66.akam.net.              	172800	IN	AAAA	2600:1401:2::42
+RR.fromData: offset=0x170; dn=usw6.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+usw6.akam.net.                	172800	IN	A	23.61.199.64
+RR.fromData: offset=0x180; dn=adns1.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+adns1.akam.net.               	172800	IN	A	96.7.50.66
+RR.fromData: offset=0x190; dn=ns4-66.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns4-66.akam.net.              	172800	IN	A	84.53.139.66
+RR.fromData: offset=0x1a0; dn=ns7-65.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns7-65.akam.net.              	172800	IN	A	96.7.49.65
+RR.fromData: offset=0x1b0; dn=ns5-66.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns5-66.akam.net.              	172800	IN	A	184.85.248.66
+RR.fromData: offset=0x1c0; dn=a6-65.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a6-65.akam.net.               	172800	IN	A	23.211.133.65
+RR.fromData: offset=0x1d0; dn=a6-65.akam.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+a6-65.akam.net.               	172800	IN	AAAA	2600:1401:1::41
+RR.fromData: offset=0x1ec; dn=a12-65.akam.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a12-65.akam.net.              	172800	IN	A	184.26.160.65
+Received 23 resource records (0 answers, 13 authoritative, 8 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com-c-2.edgekey.net.'  =>  'j.gtld-servers.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com-c-2.edgekey.net.'  =>  'ns1-66.akam.net.'
+Requesting 'www.microsoft.com-c-2.edgekey.net.' to nameserver: 'ns1-66.akam.net.' (193.108.91.66)
+RR.fromData: offset=0x33; dn=www.microsoft.com-c-2.edgekey.net.; len(dn)=2,               type=5, cls=1, ttl=21600, rdlength=55
+www.microsoft.com-c-2.edgekey.net.	21600	IN	CNAME	www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.
+Received 1 resource records (1 answers, 0 authoritative, 0 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com-c-2.edgekey.net.'  =>  'ns1-66.akam.net.'
+DUDE THIS DOMAIN (www.microsoft.com-c-2.edgekey.net.) IS IN CNAMECACHE BUT NOT IN ACACHE
+[(www.microsoft.com., 21600, IN, CNAME, www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.)]
+[]
+SEP: RECURSIVE: 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.'  =>  'd.root-servers.net.'
+Requesting 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.' to nameserver: 'd.root-servers.net.' (199.7.91.13)
+RR.fromData: offset=0x4a; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=17
+net.                          	172800	IN	NS	e.gtld-servers.net.
+RR.fromData: offset=0x67; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	h.gtld-servers.net.
+RR.fromData: offset=0x77; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	j.gtld-servers.net.
+RR.fromData: offset=0x87; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	i.gtld-servers.net.
+RR.fromData: offset=0x97; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	c.gtld-servers.net.
+RR.fromData: offset=0xa7; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	g.gtld-servers.net.
+RR.fromData: offset=0xb7; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	l.gtld-servers.net.
+RR.fromData: offset=0xc7; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	b.gtld-servers.net.
+RR.fromData: offset=0xd7; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	d.gtld-servers.net.
+RR.fromData: offset=0xe7; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	k.gtld-servers.net.
+RR.fromData: offset=0xf7; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	m.gtld-servers.net.
+RR.fromData: offset=0x107; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	f.gtld-servers.net.
+RR.fromData: offset=0x117; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	a.gtld-servers.net.
+RR.fromData: offset=0x127; dn=a.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a.gtld-servers.net.           	172800	IN	A	192.5.6.30
+RR.fromData: offset=0x137; dn=b.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+b.gtld-servers.net.           	172800	IN	A	192.33.14.30
+RR.fromData: offset=0x147; dn=c.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+c.gtld-servers.net.           	172800	IN	A	192.26.92.30
+RR.fromData: offset=0x157; dn=d.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+d.gtld-servers.net.           	172800	IN	A	192.31.80.30
+RR.fromData: offset=0x167; dn=e.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+e.gtld-servers.net.           	172800	IN	A	192.12.94.30
+RR.fromData: offset=0x177; dn=f.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+f.gtld-servers.net.           	172800	IN	A	192.35.51.30
+RR.fromData: offset=0x187; dn=g.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+g.gtld-servers.net.           	172800	IN	A	192.42.93.30
+RR.fromData: offset=0x197; dn=h.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+h.gtld-servers.net.           	172800	IN	A	192.54.112.30
+RR.fromData: offset=0x1a7; dn=i.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+i.gtld-servers.net.           	172800	IN	A	192.43.172.30
+RR.fromData: offset=0x1b7; dn=j.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+j.gtld-servers.net.           	172800	IN	A	192.48.79.30
+RR.fromData: offset=0x1c7; dn=k.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+k.gtld-servers.net.           	172800	IN	A	192.52.178.30
+RR.fromData: offset=0x1d7; dn=l.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+l.gtld-servers.net.           	172800	IN	A	192.41.162.30
+RR.fromData: offset=0x1e7; dn=m.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+m.gtld-servers.net.           	172800	IN	A	192.55.83.30
+Received 26 resource records (0 answers, 13 authoritative, 13 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.'  =>  'd.root-servers.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.'  =>  'e.gtld-servers.net.'
+Requesting 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.' to nameserver: 'e.gtld-servers.net.' (192.12.94.30)
+RR.fromData: offset=0x4a; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+akadns.net.                   	172800	IN	NS	a3-129.akadns.net.
+RR.fromData: offset=0x5f; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+akadns.net.                   	172800	IN	NS	a7-131.akadns.net.
+RR.fromData: offset=0x74; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akadns.net.                   	172800	IN	NS	a11-129.akadns.net.
+RR.fromData: offset=0x8a; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+akadns.net.                   	172800	IN	NS	a1-128.akadns.net.
+RR.fromData: offset=0x9f; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+akadns.net.                   	172800	IN	NS	a9-128.akadns.net.
+RR.fromData: offset=0xb4; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=19
+akadns.net.                   	172800	IN	NS	a5-130.akadns.org.
+RR.fromData: offset=0xd3; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akadns.net.                   	172800	IN	NS	a13-130.akadns.org.
+RR.fromData: offset=0xe9; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akadns.net.                   	172800	IN	NS	a28-129.akadns.org.
+RR.fromData: offset=0xff; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akadns.net.                   	172800	IN	NS	a12-131.akadns.org.
+RR.fromData: offset=0x115; dn=akadns.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akadns.net.                   	172800	IN	NS	a18-128.akadns.org.
+RR.fromData: offset=0x12b; dn=a3-129.akadns.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a3-129.akadns.net.            	172800	IN	A	96.7.49.129
+RR.fromData: offset=0x13b; dn=a7-131.akadns.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a7-131.akadns.net.            	172800	IN	A	23.61.199.131
+RR.fromData: offset=0x14b; dn=a11-129.akadns.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a11-129.akadns.net.           	172800	IN	A	84.53.139.129
+RR.fromData: offset=0x15b; dn=a1-128.akadns.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a1-128.akadns.net.            	172800	IN	A	193.108.88.128
+RR.fromData: offset=0x16b; dn=a9-128.akadns.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a9-128.akadns.net.            	172800	IN	A	184.85.248.128
+Received 15 resource records (0 answers, 10 authoritative, 5 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.'  =>  'e.gtld-servers.net.'
+SEP:  ITERATIVE START: 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.'  =>  'a3-129.akadns.net.'
+Requesting 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.' to nameserver: 'a3-129.akadns.net.' (96.7.49.129)
+RR.fromData: offset=0x4a; dn=www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.; len(dn)=2,               type=5, cls=1, ttl=900, rdlength=24
+www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.	900	IN	CNAME	e1863.dspb.akamaiedge.net.
+Received 1 resource records (1 answers, 0 authoritative, 0 additional)
+SEP3: ITERATIVE END  : 'www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.'  =>  'a3-129.akadns.net.'
+DUDE THIS DOMAIN (www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.) IS IN CNAMECACHE BUT NOT IN ACACHE
+[(www.microsoft.com., 900, IN, CNAME, e1863.dspb.akamaiedge.net.)]
+[]
+SEP: RECURSIVE: 'e1863.dspb.akamaiedge.net.'
+SEP:  ITERATIVE START: 'e1863.dspb.akamaiedge.net.'  =>  'd.root-servers.net.'
+Requesting 'e1863.dspb.akamaiedge.net.' to nameserver: 'd.root-servers.net.' (199.7.91.13)
+RR.fromData: offset=0x2b; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=17
+net.                          	172800	IN	NS	a.gtld-servers.net.
+RR.fromData: offset=0x48; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	m.gtld-servers.net.
+RR.fromData: offset=0x58; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	l.gtld-servers.net.
+RR.fromData: offset=0x68; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	d.gtld-servers.net.
+RR.fromData: offset=0x78; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	k.gtld-servers.net.
+RR.fromData: offset=0x88; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	b.gtld-servers.net.
+RR.fromData: offset=0x98; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	g.gtld-servers.net.
+RR.fromData: offset=0xa8; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	e.gtld-servers.net.
+RR.fromData: offset=0xb8; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	h.gtld-servers.net.
+RR.fromData: offset=0xc8; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	f.gtld-servers.net.
+RR.fromData: offset=0xd8; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	i.gtld-servers.net.
+RR.fromData: offset=0xe8; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	c.gtld-servers.net.
+RR.fromData: offset=0xf8; dn=net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=4
+net.                          	172800	IN	NS	j.gtld-servers.net.
+RR.fromData: offset=0x108; dn=a.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a.gtld-servers.net.           	172800	IN	A	192.5.6.30
+RR.fromData: offset=0x118; dn=b.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+b.gtld-servers.net.           	172800	IN	A	192.33.14.30
+RR.fromData: offset=0x128; dn=c.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+c.gtld-servers.net.           	172800	IN	A	192.26.92.30
+RR.fromData: offset=0x138; dn=d.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+d.gtld-servers.net.           	172800	IN	A	192.31.80.30
+RR.fromData: offset=0x148; dn=e.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+e.gtld-servers.net.           	172800	IN	A	192.12.94.30
+RR.fromData: offset=0x158; dn=f.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+f.gtld-servers.net.           	172800	IN	A	192.35.51.30
+RR.fromData: offset=0x168; dn=g.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+g.gtld-servers.net.           	172800	IN	A	192.42.93.30
+RR.fromData: offset=0x178; dn=h.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+h.gtld-servers.net.           	172800	IN	A	192.54.112.30
+RR.fromData: offset=0x188; dn=i.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+i.gtld-servers.net.           	172800	IN	A	192.43.172.30
+RR.fromData: offset=0x198; dn=j.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+j.gtld-servers.net.           	172800	IN	A	192.48.79.30
+RR.fromData: offset=0x1a8; dn=k.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+k.gtld-servers.net.           	172800	IN	A	192.52.178.30
+RR.fromData: offset=0x1b8; dn=l.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+l.gtld-servers.net.           	172800	IN	A	192.41.162.30
+RR.fromData: offset=0x1c8; dn=m.gtld-servers.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+m.gtld-servers.net.           	172800	IN	A	192.55.83.30
+RR.fromData: offset=0x1d8; dn=a.gtld-servers.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+a.gtld-servers.net.           	172800	IN	AAAA	2001:503:a83e::2:30
+Received 27 resource records (0 answers, 13 authoritative, 13 additional)
+SEP3: ITERATIVE END  : 'e1863.dspb.akamaiedge.net.'  =>  'd.root-servers.net.'
+SEP:  ITERATIVE START: 'e1863.dspb.akamaiedge.net.'  =>  'a.gtld-servers.net.'
+Requesting 'e1863.dspb.akamaiedge.net.' to nameserver: 'a.gtld-servers.net.' (192.5.6.30)
+RR.fromData: offset=0x2b; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=6
+akamaiedge.net.               	172800	IN	NS	la1.akamaiedge.net.
+RR.fromData: offset=0x3d; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=6
+akamaiedge.net.               	172800	IN	NS	la3.akamaiedge.net.
+RR.fromData: offset=0x4f; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=7
+akamaiedge.net.               	172800	IN	NS	lar2.akamaiedge.net.
+RR.fromData: offset=0x62; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	ns3-194.akamaiedge.net.
+RR.fromData: offset=0x78; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	ns6-194.akamaiedge.net.
+RR.fromData: offset=0x8e; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	ns7-194.akamaiedge.net.
+RR.fromData: offset=0xa4; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	ns5-194.akamaiedge.net.
+RR.fromData: offset=0xba; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	a12-192.akamaiedge.net.
+RR.fromData: offset=0xd0; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	a28-192.akamaiedge.net.
+RR.fromData: offset=0xe6; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+akamaiedge.net.               	172800	IN	NS	a6-192.akamaiedge.net.
+RR.fromData: offset=0xfb; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=9
+akamaiedge.net.               	172800	IN	NS	a1-192.akamaiedge.net.
+RR.fromData: offset=0x110; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	a13-192.akamaiedge.net.
+RR.fromData: offset=0x126; dn=akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=172800, rdlength=10
+akamaiedge.net.               	172800	IN	NS	a11-192.akamaiedge.net.
+RR.fromData: offset=0x13c; dn=la1.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+la1.akamaiedge.net.           	172800	IN	A	184.26.161.192
+RR.fromData: offset=0x14c; dn=la3.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+la3.akamaiedge.net.           	172800	IN	A	95.101.36.192
+RR.fromData: offset=0x15c; dn=lar2.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+lar2.akamaiedge.net.          	172800	IN	A	2.16.40.192
+RR.fromData: offset=0x16c; dn=ns3-194.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns3-194.akamaiedge.net.       	172800	IN	A	23.61.199.194
+RR.fromData: offset=0x17c; dn=ns3-194.akamaiedge.net.; len(dn)=2,               type=28, cls=1, ttl=172800, rdlength=16
+ns3-194.akamaiedge.net.       	172800	IN	AAAA	2600:1406:32::c2
+RR.fromData: offset=0x198; dn=ns6-194.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns6-194.akamaiedge.net.       	172800	IN	A	95.100.168.194
+RR.fromData: offset=0x1a8; dn=ns7-194.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns7-194.akamaiedge.net.       	172800	IN	A	96.7.49.194
+RR.fromData: offset=0x1b8; dn=ns5-194.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+ns5-194.akamaiedge.net.       	172800	IN	A	184.85.248.194
+RR.fromData: offset=0x1c8; dn=a12-192.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a12-192.akamaiedge.net.       	172800	IN	A	184.26.160.192
+RR.fromData: offset=0x1d8; dn=a28-192.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a28-192.akamaiedge.net.       	172800	IN	A	95.100.173.192
+RR.fromData: offset=0x1e8; dn=a6-192.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=172800, rdlength=4
+a6-192.akamaiedge.net.        	172800	IN	A	23.211.133.192
+Received 24 resource records (0 answers, 13 authoritative, 10 additional)
+SEP3: ITERATIVE END  : 'e1863.dspb.akamaiedge.net.'  =>  'a.gtld-servers.net.'
+SEP:  ITERATIVE START: 'e1863.dspb.akamaiedge.net.'  =>  'la1.akamaiedge.net.'
+Requesting 'e1863.dspb.akamaiedge.net.' to nameserver: 'la1.akamaiedge.net.' (184.26.161.192)
+RR.fromData: offset=0x2b; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=8000, rdlength=9
+dspb.akamaiedge.net.          	8000	IN	NS	n1dspb.akamaiedge.net.
+RR.fromData: offset=0x40; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=8000, rdlength=9
+dspb.akamaiedge.net.          	8000	IN	NS	n7dspb.akamaiedge.net.
+RR.fromData: offset=0x55; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=8000, rdlength=9
+dspb.akamaiedge.net.          	8000	IN	NS	n4dspb.akamaiedge.net.
+RR.fromData: offset=0x6a; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=4000, rdlength=9
+dspb.akamaiedge.net.          	4000	IN	NS	n5dspb.akamaiedge.net.
+RR.fromData: offset=0x7f; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=6000, rdlength=9
+dspb.akamaiedge.net.          	6000	IN	NS	n6dspb.akamaiedge.net.
+RR.fromData: offset=0x94; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=4000, rdlength=9
+dspb.akamaiedge.net.          	4000	IN	NS	n2dspb.akamaiedge.net.
+RR.fromData: offset=0xa9; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=4000, rdlength=9
+dspb.akamaiedge.net.          	4000	IN	NS	n0dspb.akamaiedge.net.
+RR.fromData: offset=0xbe; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=6000, rdlength=9
+dspb.akamaiedge.net.          	6000	IN	NS	a0dspb.akamaiedge.net.
+RR.fromData: offset=0xd3; dn=dspb.akamaiedge.net.; len(dn)=2,               type=2, cls=1, ttl=6000, rdlength=9
+dspb.akamaiedge.net.          	6000	IN	NS	n3dspb.akamaiedge.net.
+RR.fromData: offset=0xe8; dn=n6dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=6000, rdlength=4
+n6dspb.akamaiedge.net.        	6000	IN	A	195.10.28.98
+RR.fromData: offset=0xf8; dn=n4dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=8000, rdlength=4
+n4dspb.akamaiedge.net.        	8000	IN	A	2.22.225.121
+RR.fromData: offset=0x108; dn=n1dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=8000, rdlength=4
+n1dspb.akamaiedge.net.        	8000	IN	A	2.22.225.112
+RR.fromData: offset=0x118; dn=n2dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=4000, rdlength=4
+n2dspb.akamaiedge.net.        	4000	IN	A	2.22.225.118
+RR.fromData: offset=0x128; dn=a0dspb.akamaiedge.net.; len(dn)=2,               type=28, cls=1, ttl=6000, rdlength=16
+a0dspb.akamaiedge.net.        	6000	IN	AAAA	2600:1480:e800::c0
+RR.fromData: offset=0x144; dn=n7dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=8000, rdlength=4
+n7dspb.akamaiedge.net.        	8000	IN	A	46.33.77.2
+RR.fromData: offset=0x154; dn=n5dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=4000, rdlength=4
+n5dspb.akamaiedge.net.        	4000	IN	A	2.22.225.126
+RR.fromData: offset=0x164; dn=n0dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=4000, rdlength=4
+n0dspb.akamaiedge.net.        	4000	IN	A	88.221.81.192
+RR.fromData: offset=0x174; dn=n3dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=6000, rdlength=4
+n3dspb.akamaiedge.net.        	6000	IN	A	2.22.225.113
+Received 18 resource records (0 answers, 9 authoritative, 8 additional)
+SEP3: ITERATIVE END  : 'e1863.dspb.akamaiedge.net.'  =>  'la1.akamaiedge.net.'
+SEP:  ITERATIVE START: 'e1863.dspb.akamaiedge.net.'  =>  'n1dspb.akamaiedge.net.'
+Requesting 'e1863.dspb.akamaiedge.net.' to nameserver: 'n1dspb.akamaiedge.net.' (2.22.225.112)
+RR.fromData: offset=0x2b; dn=e1863.dspb.akamaiedge.net.; len(dn)=2,               type=1, cls=1, ttl=20, rdlength=4
+e1863.dspb.akamaiedge.net.    	20	IN	A	23.44.100.111
+Received 1 resource records (1 answers, 0 authoritative, 0 additional)
+SEP3: ITERATIVE END  : 'e1863.dspb.akamaiedge.net.'  =>  'n1dspb.akamaiedge.net.'
+SEP2: RECURSIVE OK for: e1863.dspb.akamaiedge.net.
+SEP2: RECURSIVE OK for: www.microsoft.com-c-2.edgekey.net.globalredir.akadns.net.
+SEP2: RECURSIVE OK for: www.microsoft.com-c-2.edgekey.net.
+SEP2: RECURSIVE OK for: www.microsoft.com.
